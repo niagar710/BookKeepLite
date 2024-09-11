@@ -1,0 +1,39 @@
+.custom-background {
+  background-color: #003166;
+  height: 100vh; /* Ensures it covers the full viewport height */
+  width: 100vw; /* Covers full viewport width */
+  margin: 0;
+  padding: 0;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-container img {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+input {
+  padding: 10px;
+  width: 250px;
+  font-size: 16px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}

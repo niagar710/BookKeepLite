@@ -1,0 +1,15 @@
+<div class="custom-background">
+  <div class="login-container">
+    <img src="/assets/img/Brand Logo (Circle).png" alt="Brand Logo" />
+
+    <form [formGroup]="userLogin" (ngSubmit)="onSubmit()">
+      <input formControlName="username" type="text" placeholder="User ID" />
+      <input
+        formControlName="password"
+        type="password"
+        placeholder="password"
+      />
+      <button type="submit">Login</button>
+    </form>
+  </div>
+</div>

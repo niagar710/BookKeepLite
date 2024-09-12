@@ -6,6 +6,7 @@
   padding: 0;
 }
 
+/* This styles the logo, username and password textbox, and login button */
 .login-container {
   display: flex;
   flex-direction: column;
@@ -32,8 +33,29 @@ input {
   text-align: center;
 }
 
+/* Styling for all buttons */
 button {
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
+  border-radius: 8px;
+  width: 200px;
+  height: 40px;
+}
+
+button:hover {
+  background-color: #728db2;
+}
+
+/* This styles the forgot password and new user buttons */
+.assistance-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  gap: 80px;
+}
+
+.assistance-container button {
+  padding: 10px 20px;
+  font-size: 16px;
 }
